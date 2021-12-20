@@ -8,10 +8,6 @@ var a = Parsimmon.seqMap(
   Parsimmon.index,
   function (_prefix, B, index) {
     console.log(B);
-    console.log(_prefix);
-    console.log(index.offset); // => 8
-    console.log(index.line); // => 3
-    console.log(index.column); // => 5
     return B;
   }
 );
