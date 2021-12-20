@@ -13,6 +13,10 @@ var a = Parsimmon.seqMap(
     console.log(index.line); // => 3
     console.log(index.column); // => 5
     return B;
+
+
+
+    
   }
 );
 
